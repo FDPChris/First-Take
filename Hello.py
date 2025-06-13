@@ -3,3 +3,6 @@ name = input("What's your name? ")
 import datetime
 current_time = datetime.datetime.now()
 print(f"The current date and time is: {current_time}")
+import subprocess
+
+def open_cmd():
